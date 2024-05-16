@@ -1,0 +1,85 @@
+# TSL Specification for Delta Airlines Flight Search - Round Trip Only
+# This version gives 292 test frames
+
+Parameters:
+    Number of Passengers:
+        One.                            [property Individual]
+        Two.                            [single]
+        Three.                          [single]
+        Four.                           [single]
+        Five.                           [single]
+        Six.                            [single]
+        Seven.                          [single]
+        Eight.                          [single]
+        Nine.                           [single]
+        MoreThanAllowed.                [error]     # Represents selecting more passengers than the form allows
+
+    Best Fare Options:
+        BasicEconomy.                   [property Basic]
+        MainCabin.                      [single]
+        DeltaComfortPlus.               [single]
+        FirstClass.                     [single]
+        DeltaPremiumSelect              [single]
+        DeltaOne                        [single]
+
+    Departure Airport:
+        BDL.                            # Hartford/Springfield, CT
+        PVD.                            # Providence, RI
+        InvalidCode.                    [error]
+
+    Arrival Airport:
+        ATL.                            # Atlanta, GA
+        EWR.                            # Newark, NJ
+        MSP.                            # Minneapolis/St Paul, MN, for testing the non-stop
+        InvalidCode.                    [error]
+
+    TripType:
+        RoundTrip.                      # Since only round trip is considered
+        OneWay.                         [error] # One-Way is out of scope as per lab manual.
+        MultiCity.                      [error] # Multi-City is out of scope as per lab manual. 
+
+    Departure Date:
+        Today.                          [property Depature_CurrentDate]
+        OneMonthFuture.                 [property Depature_OneMonthDate]
+        ElevenMonthsFuture.             [property Depature_ElevenMonthDate]
+        PastDate.                       [error]
+        MoreThanOneYearFuture.          [error]
+
+    Return Date:
+        ReturnWithinOneYear.            [property Valid_Return_date]    # Any time after depature within 1 year is vaild
+        RuturnEarlierThanDepareture.    [error]                     
+        PastDate.                       [error]
+        MoreThanOneYearFuture.          [error]
+
+    Shop With Miles:
+        ShopWithMiles.                  [property ShopWithMiles]
+        NotShopWithMiles.           
+
+    Refundable Fares:
+        RefundableFares.                [if !ShopWithMiles]        # If Shop With Miles checked, Refundablle fares is not avaliable
+        NotRefundableFares.         
+    
+    My Dates Are Flexible:
+        MyDatesAreFlexible.             [property FlexibleDates]
+        NotMyDatesAreFlexible.   
+        
+    # Show Fares
+    Include Nearby Airport:
+        IncludeNearbyAirports.          [if !FlexibleDates]        # If the date is flxible, incude nearby airports is not avaliable
+        NotIncludeNearbyAirports.   
+    
+    Meeting Event Code:        
+        ValidMeetingCode.               [if !ShopWithMiles]        # If shop with miles, meeting code is not avaliable 
+        MeetingcodeNotUsed.     
+        InvalidMeetingCode.             [error]
+
+
+
+# I was using below code to achieve mutually exclusive between My Dates Are Flexible and Include NearBy Airport
+# Modified into current one as Dingbang instructed since he said the logic is too complicated and unnecessary
+
+#       NotMyDatesAreFlexible.          [property NotFlexibleDates]
+#       NotIncludeNearbyAirports.       [property NotIncludeNearby]
+#       
+#       MyDatesAreFlexible.             [if NotIncludeNearby] [property NotFlexibleDates]
+#       IncludeNearbyAirports.          [if NotFlexibleDates] [property NotIncludeNearby]

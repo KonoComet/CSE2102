@@ -1,0 +1,4138 @@
+
+Test Case 1  		<single>
+   Number of Passengers :  Two
+
+
+Test Case 2  		<single>
+   Number of Passengers :  Three
+
+
+Test Case 3  		<single>
+   Number of Passengers :  Four
+
+
+Test Case 4  		<single>
+   Number of Passengers :  Five
+
+
+Test Case 5  		<single>
+   Number of Passengers :  Six
+
+
+Test Case 6  		<single>
+   Number of Passengers :  Seven
+
+
+Test Case 7  		<single>
+   Number of Passengers :  Eight
+
+
+Test Case 8  		<single>
+   Number of Passengers :  Nine
+
+
+Test Case 9  		<error>
+   Number of Passengers :  MoreThanAllowed
+
+
+Test Case 10 		<single>
+   Best Fare Options :  MainCabin
+
+
+Test Case 11 		<single>
+   Best Fare Options :  DeltaComfortPlus
+
+
+Test Case 12 		<single>
+   Best Fare Options :  FirstClass
+
+
+Test Case 13 		<error>
+   Departure Airport :  InvalidCode
+
+
+Test Case 14 		<error>
+   Arrival Airport :  InvalidCode
+
+
+Test Case 15 		<error>
+   TripType :  OneWay
+
+
+Test Case 16 		<error>
+   TripType :  MultiCity
+
+
+Test Case 17 		<error>
+   Departure Date :  PastDate
+
+
+Test Case 18 		<error>
+   Departure Date :  MoreThanOneYearFuture
+
+
+Test Case 19 		<error>
+   Return Date :  RuturnEarlierThanDepareture
+
+
+Test Case 20 		<error>
+   Return Date :  PastDate
+
+
+Test Case 21 		<error>
+   Return Date :  MoreThanOneYearFuture
+
+
+Test Case 22 		<error>
+   Meeting Event Code :  InvalidMeetingCode
+
+
+Test Case 23 		(Key = 1.1.1.1.1.1.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 24 		(Key = 1.1.1.1.1.1.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 25 		(Key = 1.1.1.1.1.1.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 26 		(Key = 1.1.1.1.1.1.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 27 		(Key = 1.1.1.1.1.1.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 28 		(Key = 1.1.1.1.1.1.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 29 		(Key = 1.1.1.1.1.1.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 30 		(Key = 1.1.1.1.1.1.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 31 		(Key = 1.1.1.1.1.1.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 32 		(Key = 1.1.1.1.1.1.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 33 		(Key = 1.1.1.1.1.1.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 34 		(Key = 1.1.1.1.1.1.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 35 		(Key = 1.1.1.1.1.1.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 36 		(Key = 1.1.1.1.1.1.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 37 		(Key = 1.1.1.1.1.1.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 38 		(Key = 1.1.1.1.1.2.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 39 		(Key = 1.1.1.1.1.2.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 40 		(Key = 1.1.1.1.1.2.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 41 		(Key = 1.1.1.1.1.2.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 42 		(Key = 1.1.1.1.1.2.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 43 		(Key = 1.1.1.1.1.2.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 44 		(Key = 1.1.1.1.1.2.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 45 		(Key = 1.1.1.1.1.2.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 46 		(Key = 1.1.1.1.1.2.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 47 		(Key = 1.1.1.1.1.2.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 48 		(Key = 1.1.1.1.1.2.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 49 		(Key = 1.1.1.1.1.2.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 50 		(Key = 1.1.1.1.1.2.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 51 		(Key = 1.1.1.1.1.2.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 52 		(Key = 1.1.1.1.1.2.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 53 		(Key = 1.1.1.1.1.3.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 54 		(Key = 1.1.1.1.1.3.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 55 		(Key = 1.1.1.1.1.3.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 56 		(Key = 1.1.1.1.1.3.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 57 		(Key = 1.1.1.1.1.3.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 58 		(Key = 1.1.1.1.1.3.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 59 		(Key = 1.1.1.1.1.3.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 60 		(Key = 1.1.1.1.1.3.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 61 		(Key = 1.1.1.1.1.3.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 62 		(Key = 1.1.1.1.1.3.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 63 		(Key = 1.1.1.1.1.3.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 64 		(Key = 1.1.1.1.1.3.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 65 		(Key = 1.1.1.1.1.3.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 66 		(Key = 1.1.1.1.1.3.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 67 		(Key = 1.1.1.1.1.3.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 68 		(Key = 1.1.1.2.1.1.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 69 		(Key = 1.1.1.2.1.1.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 70 		(Key = 1.1.1.2.1.1.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 71 		(Key = 1.1.1.2.1.1.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 72 		(Key = 1.1.1.2.1.1.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 73 		(Key = 1.1.1.2.1.1.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 74 		(Key = 1.1.1.2.1.1.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 75 		(Key = 1.1.1.2.1.1.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 76 		(Key = 1.1.1.2.1.1.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 77 		(Key = 1.1.1.2.1.1.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 78 		(Key = 1.1.1.2.1.1.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 79 		(Key = 1.1.1.2.1.1.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 80 		(Key = 1.1.1.2.1.1.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 81 		(Key = 1.1.1.2.1.1.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 82 		(Key = 1.1.1.2.1.1.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 83 		(Key = 1.1.1.2.1.2.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 84 		(Key = 1.1.1.2.1.2.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 85 		(Key = 1.1.1.2.1.2.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 86 		(Key = 1.1.1.2.1.2.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 87 		(Key = 1.1.1.2.1.2.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 88 		(Key = 1.1.1.2.1.2.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 89 		(Key = 1.1.1.2.1.2.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 90 		(Key = 1.1.1.2.1.2.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 91 		(Key = 1.1.1.2.1.2.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 92 		(Key = 1.1.1.2.1.2.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 93 		(Key = 1.1.1.2.1.2.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 94 		(Key = 1.1.1.2.1.2.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 95 		(Key = 1.1.1.2.1.2.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 96 		(Key = 1.1.1.2.1.2.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 97 		(Key = 1.1.1.2.1.2.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 98 		(Key = 1.1.1.2.1.3.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 99 		(Key = 1.1.1.2.1.3.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 100		(Key = 1.1.1.2.1.3.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 101		(Key = 1.1.1.2.1.3.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 102		(Key = 1.1.1.2.1.3.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 103		(Key = 1.1.1.2.1.3.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 104		(Key = 1.1.1.2.1.3.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 105		(Key = 1.1.1.2.1.3.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 106		(Key = 1.1.1.2.1.3.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 107		(Key = 1.1.1.2.1.3.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 108		(Key = 1.1.1.2.1.3.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 109		(Key = 1.1.1.2.1.3.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 110		(Key = 1.1.1.2.1.3.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 111		(Key = 1.1.1.2.1.3.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 112		(Key = 1.1.1.2.1.3.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 113		(Key = 1.1.1.3.1.1.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 114		(Key = 1.1.1.3.1.1.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 115		(Key = 1.1.1.3.1.1.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 116		(Key = 1.1.1.3.1.1.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 117		(Key = 1.1.1.3.1.1.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 118		(Key = 1.1.1.3.1.1.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 119		(Key = 1.1.1.3.1.1.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 120		(Key = 1.1.1.3.1.1.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 121		(Key = 1.1.1.3.1.1.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 122		(Key = 1.1.1.3.1.1.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 123		(Key = 1.1.1.3.1.1.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 124		(Key = 1.1.1.3.1.1.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 125		(Key = 1.1.1.3.1.1.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 126		(Key = 1.1.1.3.1.1.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 127		(Key = 1.1.1.3.1.1.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 128		(Key = 1.1.1.3.1.2.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 129		(Key = 1.1.1.3.1.2.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 130		(Key = 1.1.1.3.1.2.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 131		(Key = 1.1.1.3.1.2.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 132		(Key = 1.1.1.3.1.2.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 133		(Key = 1.1.1.3.1.2.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 134		(Key = 1.1.1.3.1.2.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 135		(Key = 1.1.1.3.1.2.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 136		(Key = 1.1.1.3.1.2.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 137		(Key = 1.1.1.3.1.2.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 138		(Key = 1.1.1.3.1.2.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 139		(Key = 1.1.1.3.1.2.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 140		(Key = 1.1.1.3.1.2.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 141		(Key = 1.1.1.3.1.2.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 142		(Key = 1.1.1.3.1.2.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 143		(Key = 1.1.1.3.1.3.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 144		(Key = 1.1.1.3.1.3.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 145		(Key = 1.1.1.3.1.3.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 146		(Key = 1.1.1.3.1.3.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 147		(Key = 1.1.1.3.1.3.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 148		(Key = 1.1.1.3.1.3.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 149		(Key = 1.1.1.3.1.3.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 150		(Key = 1.1.1.3.1.3.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 151		(Key = 1.1.1.3.1.3.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 152		(Key = 1.1.1.3.1.3.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 153		(Key = 1.1.1.3.1.3.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 154		(Key = 1.1.1.3.1.3.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 155		(Key = 1.1.1.3.1.3.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 156		(Key = 1.1.1.3.1.3.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 157		(Key = 1.1.1.3.1.3.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  BDL
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 158		(Key = 1.1.2.1.1.1.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 159		(Key = 1.1.2.1.1.1.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 160		(Key = 1.1.2.1.1.1.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 161		(Key = 1.1.2.1.1.1.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 162		(Key = 1.1.2.1.1.1.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 163		(Key = 1.1.2.1.1.1.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 164		(Key = 1.1.2.1.1.1.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 165		(Key = 1.1.2.1.1.1.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 166		(Key = 1.1.2.1.1.1.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 167		(Key = 1.1.2.1.1.1.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 168		(Key = 1.1.2.1.1.1.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 169		(Key = 1.1.2.1.1.1.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 170		(Key = 1.1.2.1.1.1.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 171		(Key = 1.1.2.1.1.1.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 172		(Key = 1.1.2.1.1.1.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 173		(Key = 1.1.2.1.1.2.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 174		(Key = 1.1.2.1.1.2.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 175		(Key = 1.1.2.1.1.2.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 176		(Key = 1.1.2.1.1.2.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 177		(Key = 1.1.2.1.1.2.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 178		(Key = 1.1.2.1.1.2.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 179		(Key = 1.1.2.1.1.2.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 180		(Key = 1.1.2.1.1.2.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 181		(Key = 1.1.2.1.1.2.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 182		(Key = 1.1.2.1.1.2.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 183		(Key = 1.1.2.1.1.2.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 184		(Key = 1.1.2.1.1.2.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 185		(Key = 1.1.2.1.1.2.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 186		(Key = 1.1.2.1.1.2.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 187		(Key = 1.1.2.1.1.2.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 188		(Key = 1.1.2.1.1.3.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 189		(Key = 1.1.2.1.1.3.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 190		(Key = 1.1.2.1.1.3.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 191		(Key = 1.1.2.1.1.3.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 192		(Key = 1.1.2.1.1.3.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 193		(Key = 1.1.2.1.1.3.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 194		(Key = 1.1.2.1.1.3.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 195		(Key = 1.1.2.1.1.3.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 196		(Key = 1.1.2.1.1.3.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 197		(Key = 1.1.2.1.1.3.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 198		(Key = 1.1.2.1.1.3.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 199		(Key = 1.1.2.1.1.3.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 200		(Key = 1.1.2.1.1.3.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 201		(Key = 1.1.2.1.1.3.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 202		(Key = 1.1.2.1.1.3.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  ATL
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 203		(Key = 1.1.2.2.1.1.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 204		(Key = 1.1.2.2.1.1.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 205		(Key = 1.1.2.2.1.1.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 206		(Key = 1.1.2.2.1.1.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 207		(Key = 1.1.2.2.1.1.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 208		(Key = 1.1.2.2.1.1.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 209		(Key = 1.1.2.2.1.1.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 210		(Key = 1.1.2.2.1.1.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 211		(Key = 1.1.2.2.1.1.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 212		(Key = 1.1.2.2.1.1.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 213		(Key = 1.1.2.2.1.1.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 214		(Key = 1.1.2.2.1.1.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 215		(Key = 1.1.2.2.1.1.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 216		(Key = 1.1.2.2.1.1.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 217		(Key = 1.1.2.2.1.1.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 218		(Key = 1.1.2.2.1.2.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 219		(Key = 1.1.2.2.1.2.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 220		(Key = 1.1.2.2.1.2.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 221		(Key = 1.1.2.2.1.2.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 222		(Key = 1.1.2.2.1.2.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 223		(Key = 1.1.2.2.1.2.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 224		(Key = 1.1.2.2.1.2.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 225		(Key = 1.1.2.2.1.2.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 226		(Key = 1.1.2.2.1.2.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 227		(Key = 1.1.2.2.1.2.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 228		(Key = 1.1.2.2.1.2.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 229		(Key = 1.1.2.2.1.2.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 230		(Key = 1.1.2.2.1.2.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 231		(Key = 1.1.2.2.1.2.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 232		(Key = 1.1.2.2.1.2.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 233		(Key = 1.1.2.2.1.3.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 234		(Key = 1.1.2.2.1.3.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 235		(Key = 1.1.2.2.1.3.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 236		(Key = 1.1.2.2.1.3.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 237		(Key = 1.1.2.2.1.3.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 238		(Key = 1.1.2.2.1.3.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 239		(Key = 1.1.2.2.1.3.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 240		(Key = 1.1.2.2.1.3.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 241		(Key = 1.1.2.2.1.3.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 242		(Key = 1.1.2.2.1.3.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 243		(Key = 1.1.2.2.1.3.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 244		(Key = 1.1.2.2.1.3.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 245		(Key = 1.1.2.2.1.3.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 246		(Key = 1.1.2.2.1.3.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 247		(Key = 1.1.2.2.1.3.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  EWR
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 248		(Key = 1.1.2.3.1.1.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 249		(Key = 1.1.2.3.1.1.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 250		(Key = 1.1.2.3.1.1.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 251		(Key = 1.1.2.3.1.1.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 252		(Key = 1.1.2.3.1.1.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 253		(Key = 1.1.2.3.1.1.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 254		(Key = 1.1.2.3.1.1.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 255		(Key = 1.1.2.3.1.1.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 256		(Key = 1.1.2.3.1.1.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 257		(Key = 1.1.2.3.1.1.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 258		(Key = 1.1.2.3.1.1.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 259		(Key = 1.1.2.3.1.1.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 260		(Key = 1.1.2.3.1.1.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 261		(Key = 1.1.2.3.1.1.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 262		(Key = 1.1.2.3.1.1.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  Today
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 263		(Key = 1.1.2.3.1.2.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 264		(Key = 1.1.2.3.1.2.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 265		(Key = 1.1.2.3.1.2.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 266		(Key = 1.1.2.3.1.2.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 267		(Key = 1.1.2.3.1.2.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 268		(Key = 1.1.2.3.1.2.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 269		(Key = 1.1.2.3.1.2.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 270		(Key = 1.1.2.3.1.2.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 271		(Key = 1.1.2.3.1.2.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 272		(Key = 1.1.2.3.1.2.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 273		(Key = 1.1.2.3.1.2.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 274		(Key = 1.1.2.3.1.2.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 275		(Key = 1.1.2.3.1.2.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 276		(Key = 1.1.2.3.1.2.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 277		(Key = 1.1.2.3.1.2.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  OneMonthFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 278		(Key = 1.1.2.3.1.3.1.1.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 279		(Key = 1.1.2.3.1.3.1.1.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 280		(Key = 1.1.2.3.1.3.1.1.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  ShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 281		(Key = 1.1.2.3.1.3.1.2.1.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 282		(Key = 1.1.2.3.1.3.1.2.1.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 283		(Key = 1.1.2.3.1.3.1.2.1.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 284		(Key = 1.1.2.3.1.3.1.2.1.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 285		(Key = 1.1.2.3.1.3.1.2.1.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 286		(Key = 1.1.2.3.1.3.1.2.1.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  RefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 287		(Key = 1.1.2.3.1.3.1.2.2.1.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 288		(Key = 1.1.2.3.1.3.1.2.2.1.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleTrue
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 289		(Key = 1.1.2.3.1.3.1.2.2.2.1.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 290		(Key = 1.1.2.3.1.3.1.2.2.2.1.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsCheck
+   Meeting Event Code     :  ValidMeetingCode
+
+
+Test Case 291		(Key = 1.1.2.3.1.3.1.2.2.2.2.1.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  MeetingcodeNotUsed
+
+
+Test Case 292		(Key = 1.1.2.3.1.3.1.2.2.2.2.2.)
+   Number of Passengers   :  One
+   Best Fare Options      :  BasicEconomy
+   Departure Airport      :  PVD
+   Arrival Airport        :  MSP
+   TripType               :  RoundTrip
+   Departure Date         :  ElevenMonthsFuture
+   Return Date            :  ReturnWithinOneYear
+   Shop With Miles        :  NotShopWithMiles
+   Refundable Fares       :  NotRefundableFares
+   My Dates Are Flexible  :  MyDatesAreFlexibleUnCheck
+   Include Nearby Airport :  IncludeNearbyAirportsUnCheck
+   Meeting Event Code     :  ValidMeetingCode
+
